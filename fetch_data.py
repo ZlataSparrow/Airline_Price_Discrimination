@@ -1,7 +1,6 @@
 import gdown
 import os
 
-# Make data directory if not exists
 os.makedirs("data", exist_ok=True)
 
 # Google Drive file ID (from your shared link)
