@@ -1,10 +1,33 @@
-## ✈️ Airline Pricing & Competition Modeling
+# ✈️ Airline Pricing & Competition Modeling
 
-### Econometric modeling of airline fares, market structure, and price discrimination
-
-This project models how U.S. airlines adjust fares across markets with different levels of competition, income, and demand elasticity — uncovering clear evidence of third-degree price discrimination. Using econometric and simulation methods, I quantify how pricing power shifts across rich vs. non-rich, small vs. large, and luxury vs. standard destinations.
+## Econometric modeling of airline fares, market structure, and price discrimination
+This project investigates how airlines adjust fares across different markets to uncover evidence of price discrimination and market power.
 
 ⸻
+
+### Key Objectives
+
+1. Do airlines charge more in wealthy markets?
+2. How does competition influence fares?
+3. Can we detect third-degree price discrimination?
+
+### Methods
+
+* Econometric Modeling (OLS & interactions) — analyzes how prices respond to market conditions
+* Elasticity & Markup Analysis — measures pricing power and demand sensitivity
+* Counterfactual Simulations — tests “what-if” pricing under uniform competition
+* Model Validation — ensures robustness via cross-validation, coefficient stability, and HC3 errors
+
+### Data
+
+The Project is based on the Airline Origin and Destination Survey (DB1B) — a 10% sample of all U.S. airline tickets collected quarterly by the Bureau of Transportation Statistics (BTS), captures information about passenger itineraries, fares, carriers, and routes.
+
+* Source: U.S. Department of Transportation, Bureau of Transportation Statistics — DB1B Dataset
+* Years: 2011 and 2016
+* Frequency: Quarterly (Q1–Q4)
+* Size: ~3 million itineraries per quarter (≈500K route-level observations after aggregation)
+* Granularity: Route × Carrier × Quarter
+
 
 ### Key Outcomes:
 
@@ -16,14 +39,7 @@ This project models how U.S. airlines adjust fares across markets with different
 
 ⸻
 
-### Methods:
-
-* Econometric Modeling (OLS and Interactions) — tested price sensitivity across markets
-* Elasticity & Markup Estimation — derived competitive pricing power
-* Counterfactual Simulations — modeled uniform competition to assess pricing outcomes
-* Validation: cross-validation, coefficient stability, and HC3 heteroskedasticity-consistent standard error
-
-### What is Shows:
+### What  Shows:
 
 * Real-world pricing analytics and market modeling
 * Strong grasp of econometric inference and elasticity analysis
@@ -32,8 +48,8 @@ This project models how U.S. airlines adjust fares across markets with different
 
 
 ### Structure:
-
-📦 AIRLINE_PRICE_DISCRIMINATION/
+```
+ AIRLINE_PRICE_DISCRIMINATION/
 ├── data/
 │   ├── Airline_tickets_data.pkl               # Raw airline tickets data (loaded from G Drive)
 │   ├── Airlines_tickets_data_EDA_ready.pkl    # Cleaned dataset used for EDA (loaded from G Drive)
@@ -48,3 +64,4 @@ This project models how U.S. airlines adjust fares across markets with different
 │   ├── 03_Pricing_Rich_Markets.ipynb          # Econometric modeling, elasticity estimation, and counterfactual simulations
 │
 └── README.md                                  # Project documentation
+```
