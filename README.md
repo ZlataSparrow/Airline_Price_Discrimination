@@ -1,7 +1,9 @@
 # ✈️ Airline Pricing & Competition Modeling
 
 ## Econometric modeling of airline fares, market structure, and price discrimination
-This project investigates how airlines adjust fares across different markets to uncover evidence of price discrimination and market power.
+
+In this project, I dig into how U.S. airlines actually price their tickets. Some routes have tons of competition. Others are basically monopolies. Some serve business travelers with corporate cards, others serve families hunting for deals. Airlines know all this — and they price accordingly.
+I use data and econometrics to figure out what's really driving fares: competition, local income, how sensitive people are to price changes. Then I build models to predict prices and run simulations to see what would happen if market conditions changed.
 
 ⸻
 
@@ -10,13 +12,6 @@ This project investigates how airlines adjust fares across different markets to 
 1. Do airlines charge more in wealthy markets?
 2. How does competition influence fares?
 3. Can we detect third-degree price discrimination?
-
-### Methods
-
-* Econometric Modeling (OLS & interactions) — analyzes how prices respond to market conditions
-* Elasticity & Markup Analysis — measures pricing power and demand sensitivity
-* Counterfactual Simulations — tests “what-if” pricing under uniform competition
-* Model Validation — ensures robustness via cross-validation, coefficient stability, and HC3 errors
 
 ### Data
 
@@ -28,8 +23,16 @@ The Project is based on the Airline Origin and Destination Survey (DB1B) — a 1
 * Size: ~3 million itineraries per quarter (≈500K route-level observations after aggregation)
 * Granularity: Route × Carrier × Quarter
 
+More about data can be found here: 
 
-### Key Outcomes:
+### Methods
+
+* Econometric Modeling (OLS & interactions) — analyzes how prices respond to market conditions
+* Elasticity & Markup Analysis — measures pricing power and demand sensitivity
+* Counterfactual Simulations — tests “what-if” pricing under uniform competition
+* Model Validation — ensures robustness via cross-validation, coefficient stability, and HC3 errors
+
+### Key Outcomes
 
 1. Wealthier and smaller markets pay higher fares, even on comparable routes
 2. Competition lowers prices, but much less in rich or luxury destinations — demand is inelastic
@@ -37,15 +40,14 @@ The Project is based on the Airline Origin and Destination Survey (DB1B) — a 1
 4. Elasticity-based markups confirm airlines exploit market segmentation (consistent with 3rd-degree price discrimination)
 5. Counterfactual simulations show uniform competition would significantly reduce fares in premium markets
 
+### What This Shows:
+
+**How to model real-world pricing strategy using actual market data**
+**Economic intuition paired with technical execution — elasticity, market power, competitive dynamics**
+**The ability to move from regression output to actionable business insight**
+**Clean, reproducible code that bridges data science and economics**
+
 ⸻
-
-### What  Shows:
-
-* Real-world pricing analytics and market modeling
-* Strong grasp of econometric inference and elasticity analysis
-* Ability to translate models into business-relevant insights
-* Reproducible, production-ready data science workflow
-
 
 ### Structure:
 ```
