@@ -63,7 +63,7 @@ More about data can be found here: [README_Airlines_Tickets.txt](data/README_Air
 ├── notebooks/
 │   ├── 01_Data_Prep.ipynb                     # Data cleaning, variable creation, feature engineering
 │   ├── 02_EDA.ipynb                           # Exploratory analysis of competition, fares, and market structure
-│   ├── 03_Pricing_Rich_Markets.ipynb          # Econometric modeling, elasticity estimation, and counterfactual simulations
+│   ├── 03_Market_Price_Discrimination.ipynb   # Econometric modeling, elasticity estimation, and counterfactual simulations
 │
 └── README.md                                  # Project documentation
 ```
