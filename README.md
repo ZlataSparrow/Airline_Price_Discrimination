@@ -56,7 +56,7 @@ The Project is based on the Airline Origin and Destination Survey (DB1B) — a 1
 │   ├── Airlines_tickets_data_ready.pkl        # Final modeling dataset (loaded from G Drive)
 │   ├── Airports_data_raw_add.pkl              # Supplemental airport data (loaded from G Drive)
 │   ├── Airports_data_raw.csv                  # Original airport-level dataset 
-│   ├── README_AIRLINES_TICKETS_DATA.txt.txt   # Airline Tickets Data documentation
+│   ├── README_AIRLINES_TICKETS_DATA.txt   # Airline Tickets Data documentation
 │
 ├── notebooks/
 │   ├── 01_Data_Prep.ipynb                     # Data cleaning, variable creation, feature engineering
