@@ -1,2 +1,9 @@
+# Ignore everything in data
 data/
+
+# But keep these specific files
+!data/*.txt
+!data/*.csv
+
+# Still ignore pickle files
 *.pkl
