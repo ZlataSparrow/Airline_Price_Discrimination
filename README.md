@@ -23,7 +23,7 @@ The Project is based on the Airline Origin and Destination Survey (DB1B) — a 1
 * Size: ~3 million itineraries per quarter (≈500K route-level observations after aggregation)
 * Granularity: Route × Carrier × Quarter
 
-More about data can be found here: [README_Airlines_Tickets.txt](README_Airlines_Tickets.txt)
+More about data can be found here: [README_Airlines_Tickets.txt](data/README_Airlines_Tickets.txt)
 
 ### Methods
 
