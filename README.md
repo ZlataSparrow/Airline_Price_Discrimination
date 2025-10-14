@@ -50,6 +50,10 @@ More about data can be found here: [README_Airlines_Tickets.txt](data/README_Air
 ⸻
 
 ### Structure:
+
+[01_Data_Preparation](data/01_Data_Prep.ipynb)
+
+
 ```
  AIRLINE_PRICE_DISCRIMINATION/
 ├── data/
