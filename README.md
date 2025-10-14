@@ -51,7 +51,12 @@ More about data can be found here: [README_Airlines_Tickets.txt](data/README_Air
 
 ### Structure:
 
-[01_Data_Preparation](data/01_Data_Prep.ipynb)
+[01_Data_Preparation](notebooks/01_Data_Prep.ipynb)
+
+[02_Exploratory_Data_Analysis](notebooks/02_EDA.ipynb)
+
+[03_Market_Price_Discrimination](notebooks/03_Market_Price_Discrimination.ipynb)
+
 
 
 ```
@@ -62,7 +67,7 @@ More about data can be found here: [README_Airlines_Tickets.txt](data/README_Air
 │   ├── Airlines_tickets_data_ready.pkl        # Final modeling dataset (loaded from G Drive)
 │   ├── Airports_data_raw_add.pkl              # Supplemental airport data (loaded from G Drive)
 │   ├── Airports_data_raw.csv                  # Original airport-level dataset 
-│   ├── README_AIRLINES_TICKETS_DATA.txt   # Airline Tickets Data documentation
+│   ├── README_AIRLINES_TICKETS_DATA.txt       # Airline Tickets Data documentation
 │
 ├── notebooks/
 │   ├── 01_Data_Prep.ipynb                     # Data cleaning, variable creation, feature engineering
