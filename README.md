@@ -40,11 +40,14 @@ More about data can be found here: [README_Airlines_Tickets.txt](data/README_Air
 4. Elasticity-based markups confirm airlines exploit market segmentation (consistent with 3rd-degree price discrimination)
 5. Counterfactual simulations show uniform competition would significantly reduce fares in premium markets
 
-### What This Shows:
+### What This Shows
 
 **How to model real-world pricing strategy using actual market data**
+
 **Economic intuition paired with technical execution — elasticity, market power, competitive dynamics**
+
 **The ability to move from regression output to actionable business insight**
+
 **Clean, reproducible code that bridges data science and economics**
 
 ⸻
